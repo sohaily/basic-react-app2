@@ -10,7 +10,7 @@ function App({name,age}) {
   //let users = {name:"sohail",age:"26"};
   //let{name,age}=users; //equailant to let name =users.name ; let age =users.age;
   return <div>
-    Hello from app.js {name} and age {age-20}   
+    Hello from app.js {name} and age {age-20}
   </div>
 }
 
