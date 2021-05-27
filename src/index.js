@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// ReactDOM.render(
+//   React.createElement('div',null,React.createElement('span',null,'hello from span again')),
+//  document.getElementById('root')
+// );
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+   <div> <App name="sohail shahzad" age ="25"/></div>,
   document.getElementById('root')
 );
 
